@@ -91,8 +91,7 @@ What's New
 
 We have a comprehensive overview of the changes in the "What's New in
 Python 3.7" document, found at
-
-    https://docs.python.org/3.7/whatsnew/3.7.html
+https://docs.python.org/3.7/whatsnew/3.7.html
 
 For a more detailed change log, read Misc/NEWS (though this file, too,
 is incomplete, and also doesn't list anything merged in from the 2.7
@@ -106,8 +105,7 @@ Documentation
 -------------
 
 Documentation for Python 3.7 is online, updated daily:
-
-    https://docs.python.org/3.7/
+https://docs.python.org/3.7/
 
 It can also be downloaded in many formats for faster access.  The documentation
 is downloadable in HTML, PDF, and reStructuredText formats; the latter version
@@ -116,8 +114,7 @@ formatting requirements.
 
 If you would like to contribute to the development of Python, relevant
 documentation is available at:
-
-    https://docs.python.org/devguide/
+https://docs.python.org/devguide/
 
 For information about building Python's documentation, refer to Doc/README.txt.
 
@@ -151,7 +148,7 @@ IMPORTANT: If the tests fail and you decide to mail a bug report, *don't*
 include the output of "make test".  It is useless.  Run the failing test
 manually, as follows:
 
-        ./python -m test -v test_whatever
+    ./python -m test -v test_whatever
 
 (substituting the top of the source tree for '.' if you built in a different
 directory).  This runs the test in verbose mode.
@@ -165,8 +162,8 @@ using the same installation prefix (--prefix argument to the configure script)
 you must take care that your primary python executable is not overwritten by the
 installation of a different version.  All files and directories installed using
 "make altinstall" contain the major and minor version and can thus live
-side-by-side.  "make install" also creates ${prefix}/bin/python3 which refers to
-${prefix}/bin/pythonX.Y.  If you intend to install multiple versions using the
+side-by-side.  "make install" also creates `${prefix}/bin/python3` which refers to
+`${prefix}/bin/pythonX.Y`.  If you intend to install multiple versions using the
 same prefix you must decide which version (if any) is your "primary" version.
 Install that version using "make install".  Install all other versions using
 "make altinstall".
@@ -181,17 +178,14 @@ Issue Tracker and Mailing List
 
 We're soliciting bug reports about all aspects of the language.  Fixes are also
 welcome, preferably in unified diff format.  Please use the issue tracker:
-
-    https://bugs.python.org/
+https://bugs.python.org/
 
 If you're not sure whether you're dealing with a bug or a feature, use the
 mailing list:
-
-    python-dev@python.org
+<python-dev@python.org>
 
 To subscribe to the list, use the mailman form:
-
-    https://mail.python.org/mailman/listinfo/python-dev/
+https://mail.python.org/mailman/listinfo/python-dev/
 
 
 Proposals for enhancement
